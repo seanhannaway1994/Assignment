@@ -8,7 +8,7 @@ Description:        This program is very similar to the previous except this tim
 4. Bonus
 
 """
-from collections import Counter # used to count the occurences of elements of the array
+from collections import Counter  # used to count the occurences of elements of the array
 
 # array of execrpt from book
 a1 = [""" Momentarily he caught O’Brien’s eye. O’Brien had stood up. He had taken off his spectacles 

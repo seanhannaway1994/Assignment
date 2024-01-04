@@ -4,7 +4,6 @@
 - SRN: 22039359
 - 7WCM0047 Data Structure and Algorithms
 
-
 ## Installation
 
 - Install Python 3.12

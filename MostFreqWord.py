@@ -13,11 +13,11 @@ Description:        This program reads the paragraphs from the book 1984 by Geor
 3. Write a Python program implementing your algorithm.
 
 """
-from collections import Counter # used to count the occurences of elements of the .txt file
+from collections import Counter  # used to count the occurences of elements of the .txt file
 
 # open the code in read mode ('r')
 with open('most_frequent_words.txt', 'r') as read_file:  # as easier to use than not to, if not used .close() needed
-    txt = read_file.read().lower() # new variable txt created, reads and stores in txt and converts all characters to lowercase
+    txt = read_file.read().lower()  # new variable txt created, reads and stores in txt and converts all characters to lowercase
 
 # another variable words created and whatever data was stored in the txt variable is split using any whitespace characters and counter is used to count the occurences of the words
 words = Counter(txt.split())
@@ -28,7 +28,7 @@ most_freq_words = words.most_common(5)
 # sorted function used to sort the most_freq_words list
 most_freq_words_sorted = sorted(
     most_freq_words,
-    key=lambda x: (-x[1], txt.index(x[0])) # sorts words in decesding order by count, then where the appear in the text
+    key=lambda x: (-x[1], txt.index(x[0]))  # sorts words in decesding order by count, then where the appear in the text
 )
 
 # write a new file named most_frequent_words_results.txt in write mode

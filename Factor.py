@@ -21,6 +21,7 @@ while True:
         print(
             "No Positive Int Entered, Please Enter A Positive Integer And Try again.")  # Enter again until a positive Int is entered
 
+
 def factor(n):
     if n == 0 or n == 1:  # if the user enters 1 or 0 then return the output as 1
         return 1

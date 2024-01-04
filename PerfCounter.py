@@ -22,17 +22,20 @@ while True:
     if n >= 0:
         break  # Exit the loop if a positive or 0 integer is entered
     else:
-        print("No Positive Int Entered, Please Enter A Positive Integer And Try again.") # Enter again until a positive Int is entered
+        # Enter again until a positive Int is entered
+        print("No Positive Int Entered, Please Enter A Positive Integer And Try again.")
+
 
 def factor(n):
-    if n == 0 or n == 1: # if the user enters 1 or 0 then return the output as 1
+    if n == 0 or n == 1:  # if the user enters 1 or 0 then return the output as 1
         return 1
     else:
-        return n * factor(n-1) # if not 1 or 2. Calculate n * n in a recursive form, decreasing n at every recursion
+        return n * factor(n - 1)  # if not 1 or 2. Calculate n * n in a recursive form, decreasing n at every recursion
 
-for i in range(n, 0, -1): # range of values, starting at whatever the user inputs to 1, with a step size of -1 (reverse order) throught the iterations
-    print(f"Current Value Of n: {i}") # prints the current value of n after every iteration
 
+# range of values, starting at whatever the user inputs to 1, with a step size of -1 (reverse order) throught the iterations
+for i in range(n, 0, -1):
+    print(f"Current Value Of n: {i}")  # prints the current value of n after every iteration
 
 # record the end time
 end_time = time.perf_counter()
