@@ -2,7 +2,7 @@
 Author:             Sean Hannaway
 SRN:                22039359
 Date:               January 2024
-Description:        This program reads the paragraphs from the book 1984 by George Orwell, splits the words up through
+Description:        This program reads the excerpt from the book 1984 by George Orwell, splits the words up through
                     whitespace and counts the occurences of each word. Each time a word occures in the text the counter adds
                     to that words counter and sends back the data its collected into a new .txt file, giving the information
                     of the top 5 words that occur most frequently in this text. The words are also ordered in the order they
