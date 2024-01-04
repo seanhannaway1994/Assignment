@@ -5,6 +5,10 @@ Date:               January 2024
 Description:        This program sorts the strings entered manually by the user into accesding order based on their
                     length and prints out the results, along with how many cities were ordered, the number of steps, swaps
                     and rounds it took to order the list. This program is a bubble sort algorithm.
+
+3.1 Sorting
+2. Implementation
+(b) Adapt the provided code to ask the user for their list of cities.
 """
 # Ask the user for input, strings are split into substrings using commas
 cities = input("Enter Your List Of Cities Separated By Commas Please: ").split(',')
