@@ -7,8 +7,8 @@ Description:        This program takes a user inputted Int (if the Int is a nega
                     the iterations.
 
 3.2 Factorial
-Question:           Write a Python programme implementing the factorial of a positive integer n in recursive form.
-                    Your program has to implement the following steps:
+1. Write a Python programme implementing the factorial of a positive integer n in recursive form.
+   Your program has to implement the following steps:
 
 """
 
