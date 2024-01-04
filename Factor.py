@@ -2,11 +2,14 @@
 Author:             Sean Hannaway
 SRN:                22039359
 Date:               January 2024
-Question:           Write a Python programme implementing the factorial of a positive integer n in recursive form.
-                    Your program has to implement the following steps:
 Description:        This program takes a user inputted Int (if the Int is a negative it, it will ask for another Int) and
                     computes the factorial of that Int, while printing the result and the current value of n throughout
                     the iterations.
+
+3.2 Factorial
+Question:           Write a Python programme implementing the factorial of a positive integer n in recursive form.
+                    Your program has to implement the following steps:
+
 """
 
 while True:
